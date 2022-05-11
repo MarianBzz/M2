@@ -66,6 +66,7 @@ function buildToDo(todo, index) {
 
   } 
   toDoShell.appendChild(toDoText);
+  toDoText.addEventListener('click', completeToDo);
   return toDoShell;
 }
 
