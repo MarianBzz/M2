@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import s from './Card.module.css'
 
 
 export default function Cards(props) {
@@ -9,7 +10,7 @@ export default function Cards(props) {
     return <h1>No hay ciudades</h1>
   }
   return (
-    <div>
+    <div className= {s.contenedor}>
       {
         props.cities.map(city =>(
           <Card
