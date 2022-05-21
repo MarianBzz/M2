@@ -1,10 +1,20 @@
 .card {
   margin: 20px;
-  width: 18rem;
+  width: 17rem;
+  background-color:#808B96;
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px rgba(3, 32, 51, 8) ;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-title {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 #closeIcon {
@@ -17,4 +27,8 @@
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
+}
+
+.btn-danger {
+  border-radius: 6px;
 }
