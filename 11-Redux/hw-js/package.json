@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack -w"
+    "start": "webpack -w",
+    "dev": "webpack --mode developent",
+    "build":"webpack --mode production"
   },
   "author": "",
   "license": "ISC",
