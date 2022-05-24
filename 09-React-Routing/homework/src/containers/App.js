@@ -3,8 +3,9 @@ import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import { Route } from 'react-router-dom';
-
-
+import video from '../videoFondo/VideoFondo.mp4';
+import Ciudad from '../components/Ciudad/Ciudad';
+import About from '../components/About/About';
 
 
 function App() {
@@ -48,21 +49,47 @@ function App() {
   }
   return (
     <div className="App">
-     <Route
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          heigth: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1",
+        }}
+      >
+        <source src={video} type="video/mp4" />
+      </video>
+      <Route
         path='/'
         render={() => <Nav onSearch={onSearch} />}
       />
-      
+      <Route
+        path='/about'
+        component={About}
+      />
+      <Route
+        exact
+        path='/ciudad/:ciudadId'
+        render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}
+        />}
+  />
       <div>
-        <Route>
-        <Cards
-          cities={cities}
-          onClose={onClose}
-        /></Route>
+        <Route exact path ={'/'}>
+          <Cards
+            cities={cities}
+            onClose={onClose}
+        />
+        </Route> 
       </div>
       <hr />
     </div>
   );
 }
-
-export default App;
+  export default App;

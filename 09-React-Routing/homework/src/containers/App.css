@@ -6,8 +6,3 @@
   display: flex;
   justify-content: center;
 }
-
-body {
-  background:url(../img/cieloclima.jpg) no-repeat center center fixed ;
-  background-size: cover;
-}
