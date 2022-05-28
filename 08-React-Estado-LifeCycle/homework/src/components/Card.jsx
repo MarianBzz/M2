@@ -10,7 +10,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <div className="row">
-            <div className="col-sm-4 col-md-4 col-lg-4">
+            <div className="col-sm-4min col-md-4 col-lg-4">
               <p>Min</p>
               <p>{min}°</p>
             </div>

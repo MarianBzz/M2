@@ -1,6 +1,7 @@
 .card {
   margin: 20px;
   width: 18rem;
+  background-color: rgb(125, 154, 207);
 }
 
 .card-title {
@@ -17,4 +18,9 @@
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
+}
+
+.col-sm-4min{
+  background-color: rgb(80, 107, 156);
+  border-radius: ;
 }

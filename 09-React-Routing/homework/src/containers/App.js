@@ -88,7 +88,6 @@ function App() {
         />
         </Route> 
       </div>
-      <hr />
     </div>
   );
 }
