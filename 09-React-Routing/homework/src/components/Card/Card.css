@@ -23,7 +23,11 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
-  font-family: "PatuaOne";
+  font-family: 'DM Serif Display', serif;
+  font-weight: bolder;
+  color: #0c2461;
+
+
 }
 
 #closeIcon {
@@ -42,6 +46,6 @@
   border-radius: 6px;
 }
 
-.fondo {
-  background-color: red;
+.iconoClima {
+ margin-right: 120px;
 }

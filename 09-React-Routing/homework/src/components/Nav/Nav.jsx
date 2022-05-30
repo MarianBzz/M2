@@ -7,7 +7,7 @@ import { About }  from '../About/About.jsx';
 
 function Nav({onSearch}) {
   return (
-    <nav className="">
+    <nav className="navbar navbar-dark bg-dark">
       <Link to='/'>
         <span className="navbar-brand">
           <img id="logoClima" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="Logo Clima" />
