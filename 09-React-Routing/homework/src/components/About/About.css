@@ -5,8 +5,9 @@
 }
 
 .tarjeta {
-    margin: 20px;
-    width: 60rem;
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
     background-color:rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -16,4 +17,20 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.imggg {
+    margin: 10px;
+
+}
+
+.orden {
+    /* border: 0.5px solid black;
+    border-radius: 20px; */
+    flex-wrap: wrap;
+}
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d5aa7
 }

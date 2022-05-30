@@ -8,7 +8,7 @@ import { About }  from '../About/About.jsx';
 function Nav({onSearch}) {
   return (
     <nav className="navbar navbar-dark bg-dark">
-      <Link to='/'>
+      <Link to='/' >
         <span className="navbar-brand">
           <img id="logoClima" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="Logo Clima" />
          Weather App
@@ -17,8 +17,8 @@ function Nav({onSearch}) {
         onSearch={onSearch}
       />
       </Link>
-      <Link to='/about'>
-        <span>About</span>
+      <Link to='/about' style={{ textDecoration: 'none' }}> 
+        <span className='letra'>About</span>
       </Link>
     </nav>
   );

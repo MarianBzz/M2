@@ -18,7 +18,7 @@ export default function SearchBar({onSearch}) {
         onChange={e => setCity(e.target.value)}
       />
       <a className="search-btn" href="#">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
       </a>
     </div>
     </form>
