@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 .card {
   margin: 20px;
   width: 17rem;
@@ -21,7 +23,7 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
-  
+  font-family: "PatuaOne";
 }
 
 #closeIcon {

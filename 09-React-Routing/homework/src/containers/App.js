@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Nav from '../components/Nav.jsx';
-import Cards from '../components/Cards.jsx';
+import Nav from '../components/Nav/Nav.jsx';
+import Cards from '../components/Cards/Cards.jsx';
 import { Route } from 'react-router-dom';
 import video from '../videoFondo/VideoFondo.mp4';
 import Ciudad from '../components/Ciudad/Ciudad';
