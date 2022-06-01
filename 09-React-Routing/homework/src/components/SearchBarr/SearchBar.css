@@ -45,7 +45,7 @@
 .search-text {
     border: none;
     background: none;
-    outline: none;
+    /* outline: none; */
     float: left;
     padding: 0;
     color: black;
